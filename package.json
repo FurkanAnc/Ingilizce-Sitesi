@@ -1,0 +1,27 @@
+{
+  "version": "1.8.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "test": "node --test",
+    "lint": "eslint src test --ext .js,.jsx",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "motion": "^12.38.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^3.8.1",
+    "vite": "^5.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}
